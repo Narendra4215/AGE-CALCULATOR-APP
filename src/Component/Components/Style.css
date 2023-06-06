@@ -1,0 +1,136 @@
+/*# sourceMappingURL=Style.css.map */
+
+
+body {
+    /* text-align: center; */
+    justify-content: center;
+    display: flex;
+    background-color: rgb(221, 227, 227);
+}
+
+.input-container input {
+    width: 80px;
+    font-weight: 900;
+}
+
+.input-container span {
+    color: blueviolet;
+    font-weight: 900;
+    font-family: 'Times New Roman', ;
+    letter-spacing: 4px;
+}
+
+.container {
+    margin-top: 100px;
+    background-color: white;
+    width: 560px;
+    padding: 30px;
+    height: 400px;
+    position: relative;
+    /* border-radius: 150px; */
+    border-bottom-right-radius: 200px;
+}
+
+input {
+    width: 70px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid rgb(213, 236, 213);
+    outline: none;
+}
+
+input:focus {
+    border: 2px solid rgb(0, 200, 255);
+}
+
+small {
+    color: red;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.submit-btn {
+    width: 70px;
+    height: 70px;
+    padding: 40px;
+    display: flex;
+    background-color: blueviolet;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 50%;
+    position: absolute;
+    right: 30px;
+    top: 100px;
+}
+
+.output span {
+    font-size: 50px;
+    color: blueviolet;
+    font-style: oblique;
+    margin-left: 20px;
+    /* margin-bottom: 20px; */
+}
+
+.output {
+    margin-top: 50px;
+
+}
+
+.output h1 {
+    font-size: 60px;
+    font-weight: 900;
+    font-style: oblique;
+    margin-bottom: -50px;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.input-flex {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+/*# sourceMappingURL=Style.css.map */
+
+
+@media only screen and (max-width:768px) {
+
+    .container {
+        width: 400px;
+    }
+
+    input {
+        width: 80%;
+    }
+
+    .output span {
+        font-size: 60px;
+    }
+
+    .submit-btn {
+        width: 40px;
+        height: 40px;
+        right: 40%;
+        top: 120px;
+    }
+
+    .submit-btn img {
+        transform: scale(o.5);
+    }
+
+    .output h1 {
+        margin-top: 30px;
+    }
+
+    .output {
+        margin-top: 80px;
+    }
+
+}

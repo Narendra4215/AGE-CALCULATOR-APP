@@ -1,0 +1,97 @@
+body {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    background-color: rgb(50, 107, 107);
+}
+
+
+.container {
+    margin-top: 100px;
+    background-color: white;
+    width: 420px;
+    padding: 30px;
+    position: relative;
+    border-radius: 150px;
+}
+
+input {
+    width: 70px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid rgb(22, 40, 23);
+    outline: none;
+
+    &:focus {
+        border: 2px solid rgb(0, 200, 255);
+    }
+}
+
+small {
+    color: red;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.submit-btn {
+    width: 70px;
+    height: 70px;
+    padding: 40px;
+    display: flex;
+    background-color: blueviolet;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 50%;
+    position: absolute;
+    right: 30px;
+    top: 100px;
+
+}
+
+.output span {
+    font-size: 30px;
+    color: blueviolet;
+    margin-left: 20px;
+    margin-bottom: 30px;
+
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.input-flex {
+    display: flex;
+    margin-bottom: 20px;
+
+}
+
+@media only screen and (max-width:768px) {
+    body {
+        background-color: red;
+    }
+
+    input {
+        width: 80%;
+    }
+
+    .output span {
+        font-size: 20px;
+    }
+
+    .submit-btn {
+        width: 40px;
+        height: 40px;
+        right: 40%;
+        top: 90px;
+    }
+
+    .submit-btn img {
+        transform: scale(o.5);
+    }
+}
